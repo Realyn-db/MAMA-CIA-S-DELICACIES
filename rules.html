@@ -1,0 +1,110 @@
+<html>
+<head>
+  <style>
+      P {
+         border: 2px solid green;
+      }
+  
+  </style>
+</head>
+<body>
+   
+  <style>
+  P {
+    color:red;
+    font-family:verdana;
+    font-size: 50px;
+  }
+ 
+ P {
+   text-align:center;
+   </style>
+   <p>Classroom Rules and Regulations<p>
+        
+    <style>
+   
+   P {
+     text-align:left;
+   }
+   
+   </style>
+    
+   
+<font color=yellow> <font size=30>1)Be prepared.<br>
+<font color=yellow> <font size=30>2)Write notes.<br>
+<font color=yellow> <font size=30>3)Be clean.<br>
+<font color=yellow> <font size=30>4)Clean the classroom.<br>
+<font color=yellow> <font size=30>5)No bullying and harassment.<br>
+<font color=yellow> <font size=30>6)Do assignments on time.<br>
+<font color=yellow> <font size=30>7)Be polite and respectful.<br>
+<font color=yellow> <font size=30>8)Follow safety rules.<br>
+<font color=yellow> <font size=30>9)Listen to the teachers.<br>
+<font color=yellow> <font size=30>10)Follow rules.<br>
+   
+   <head>
+   <style>
+     
+     body {      
+      /* 1.The Link */
+       background-image: url('Real.jpg');
+       
+       /* 2. The Fix - Keeps image still while you scroll */
+       background-attachment:fixed;
+       
+       /* 3. The Fit */
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       
+       /* 4. Cleaning - Removes white gaps at the edges */
+       margin: 20;
+       padding: 20;
+     }
+     
+     </style>
+   </head>
+   
+   
+   
+   <a href=rules.html>RULES</A>::
+   <a href=classofficers.html>OFFICERS</A>::
+   <a href=weeklyreminders.html>REMINDERS</A>::
+   
+
+   
+   <body>
+<script>
+// List of pages to loop
+const pages = ["rules.html", "classofficers.html", "weeklyreminders.html"];
+
+// Time to show each page (in milliseconds)
+const displayTime = 2000; // 2000ms = 2 seconds
+
+// Get current page
+let currentIndex = pages.indexOf(window.location.pathname.split("/").pop());
+
+// Calculate next page
+setTimeout(() => {
+    let nextIndex = (currentIndex + 1) % pages.length;
+    window.location.href = pages[nextIndex];
+}, displayTime);
+</script>
+</body>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
